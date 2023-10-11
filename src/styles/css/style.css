@@ -52,14 +52,6 @@ html{
     scroll-behavior: smooth;
 }
 
-strong{
-    color: var(--color-sky600);
-}
-
-a{
-    color: var(--color-sky600);
-}
-
 .pt-2rem{
     padding-top: 2rem;
 }
@@ -83,6 +75,11 @@ button{
     color: inherit;
 }
 
+.section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .ptb-2rem{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -100,3 +97,33 @@ button{
 @import url(./LandingPage/startupjourney.css);
 @import url(./LandingPage/howitworks.css);
 @import url(./LandingPage/endpage.css);
+
+/* MEDIA QUERIES */
+
+/*xs*/
+/* @media(min-width: 475px){} */
+
+/*sm*/
+/* @media(min-width: 640px){} */
+
+/*md*/
+@media(min-width: 768px){
+    .section{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+/*lg*/
+/* @media(min-width: 1024px){} */
+
+/*xl*/
+@media(min-width: 1280px){
+    .section{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+/*sxl*/
+/* @media(min-width: 1536px){} */

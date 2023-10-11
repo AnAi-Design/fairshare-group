@@ -8,7 +8,7 @@ import HeroImage from "../../images/hero.svg"
 const HeroBanner = () => {
   return (
     <>
-      <div className="hero-area">
+      <div className="hero-area section">
         <Container>
           <Row>
             <Col className = "hero-content" md = {6}>

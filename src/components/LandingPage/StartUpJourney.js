@@ -8,7 +8,7 @@ import StartUpJourneyImage from "../../images/journey.svg"
 const StartUpJourney = () => {
   return (
     <>
-      <div className="startup-journey-area">
+      <div className="startup-journey-area section">
         <Container>
           <Row>
             <Col className="startup-journey-content" md={6}>
