@@ -8,7 +8,7 @@ import HowItWorksImage from "../../images/how-it-works.svg"
 const HowItWorks = () => {
   return (
     <>
-      <div className="how-it-works-area">
+      <div className="how-it-works-area section">
         <Container>
           <div>
             <h1 className="how-it-works-title">How Fair share works</h1>
@@ -16,12 +16,13 @@ const HowItWorks = () => {
               Expand you yeam at three times the pace using the Fair Share
               Group. Use your start ups assets as collateral.
             </p>
-            <div className="how-it-works_img-warpper"></div>
-            <img
-              className="how-it-works-image"
-              src={HowItWorksImage}
-              alt="Hero Image"
-            />
+            <div className="how-it-works_img-warpper">
+              <img
+                className="how-it-works-image"
+                src={HowItWorksImage}
+                alt="Hero Image"
+              />
+            </div>
           </div>
         </Container>
       </div>

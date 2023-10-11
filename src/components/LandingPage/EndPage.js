@@ -8,7 +8,7 @@ import EndPageImage from "../../images/people.svg"
 const EndPage = () => {
   return (
     <>
-      <div className="end-page-area">
+      <div className="end-page-area section">
         <Container>
           <Row>
             <div>

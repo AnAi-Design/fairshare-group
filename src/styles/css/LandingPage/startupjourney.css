@@ -5,5 +5,48 @@
 
 .startup-journey-title{
     text-transform: uppercase;
+    font-size: var(--size-xl);
     
 }
+
+.startup-journey-description{
+    font-size: var(--size-sm);
+    max-width: 60ch;
+}
+
+.startup-journey-content{
+    padding-bottom: 1rem;
+}
+
+/*xs*/
+/* @media(min-width: 475px){} */
+
+/*sm*/
+/* @media(min-width: 640px){} */
+
+/*md*/
+@media(min-width: 768px){
+    .startup-journey-content{
+        padding: 0;
+    }
+}
+
+/*lg*/
+@media(min-width: 1024px){
+    .startup-journey-title{
+        font-size: var(--size-3xl);
+        
+    }
+    
+    .startup-journey-description{
+        font-size: var(--size-lg);
+    }
+}
+
+/*xl*/
+@media(min-width: 1280px){
+    
+}
+
+/*sxl*/
+/* @media(min-width: 1536px){} */
