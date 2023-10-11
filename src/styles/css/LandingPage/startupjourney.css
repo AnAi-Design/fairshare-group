@@ -1,0 +1,9 @@
+.startup-journey-area{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.startup-journey-title{
+    text-transform: uppercase;
+    
+}
