@@ -52,6 +52,11 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
 .pt-2rem{
     padding-top: 2rem;
 }
