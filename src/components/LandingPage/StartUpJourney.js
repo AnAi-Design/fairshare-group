@@ -3,7 +3,7 @@ import { Col } from "react-bootstrap"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 
-import StartUpJourneyImage from "../../images/journey.svg"
+import StartUpJourneyImage from "../../images/start-up-journey.png"
 
 const StartUpJourney = () => {
   return (
